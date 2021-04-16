@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6"></div>
+        <div class="col-12 col-md-6"></div>
+
+        <div class="col-12 mt-4">
+
+            <h2>Best Seller</h2>
+
+            <button class="btn btn-primary">Leer Productos</button>
+
+            <div class="container">
+                <div class="row card-deck">
+                    <app-product-card *ngFor="let item of products" class="col-md-3"></app-product-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
